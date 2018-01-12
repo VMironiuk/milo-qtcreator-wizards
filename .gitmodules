@@ -25,3 +25,4 @@
 [submodule "milo-project-templates/milo/mcrypto"]
 	path = milo-project-templates/milo/mcrypto
 	url = https://github.com/VMironiuk/mcrypto.git
+	branch = qtcwizard
