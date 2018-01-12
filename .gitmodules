@@ -14,3 +14,6 @@
 	path = milo-project-templates/milo/mlog
 	url = https://github.com/VMironiuk/mlog.git
 	branch = qtcwizard
+[submodule "milo-project-templates/milo/mrestapi"]
+	path = milo-project-templates/milo/mrestapi
+	url = https://github.com/VMironiuk/mrestapi.git
