@@ -5,3 +5,4 @@
 [submodule "milo-project-templates/milo/mconfig"]
 	path = milo-project-templates/milo/mconfig
 	url = https://github.com/VMironiuk/mconfig.git
+	branch = qtcwizard
