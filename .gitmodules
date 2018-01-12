@@ -17,3 +17,4 @@
 [submodule "milo-project-templates/milo/mrestapi"]
 	path = milo-project-templates/milo/mrestapi
 	url = https://github.com/VMironiuk/mrestapi.git
+	branch = qtcwizard
