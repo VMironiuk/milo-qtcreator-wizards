@@ -13,3 +13,4 @@
 [submodule "milo-project-templates/milo/mlog"]
 	path = milo-project-templates/milo/mlog
 	url = https://github.com/VMironiuk/mlog.git
+	branch = qtcwizard
