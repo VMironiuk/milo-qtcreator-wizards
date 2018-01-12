@@ -1,3 +1,4 @@
 [submodule "milo-project-templates/milo/newprojecttemplate"]
 	path = milo-project-templates/milo/newprojecttemplate
 	url = https://github.com/VMironiuk/newprojecttemplate.git
+	branch = qtcwizard
