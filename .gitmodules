@@ -21,3 +21,4 @@
 [submodule "milo-project-templates/milo/msentry"]
 	path = milo-project-templates/milo/msentry
 	url = https://github.com/VMironiuk/msentry.git
+	branch = qtcwizard
