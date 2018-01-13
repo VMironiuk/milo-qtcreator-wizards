@@ -33,3 +33,4 @@
 [submodule "milo-project-templates/milo/mscripts"]
 	path = milo-project-templates/milo/mscripts
 	url = https://github.com/VMironiuk/mscripts.git
+	branch = qtcwizard
