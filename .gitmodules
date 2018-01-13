@@ -26,3 +26,6 @@
 	path = milo-project-templates/milo/mcrypto
 	url = https://github.com/VMironiuk/mcrypto.git
 	branch = qtcwizard
+[submodule "milo-project-templates/milo/mbarcodescanner"]
+	path = milo-project-templates/milo/mbarcodescanner
+	url = https://github.com/VMironiuk/mbarcodescanner.git
