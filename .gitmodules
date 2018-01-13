@@ -29,3 +29,4 @@
 [submodule "milo-project-templates/milo/mbarcodescanner"]
 	path = milo-project-templates/milo/mbarcodescanner
 	url = https://github.com/VMironiuk/mbarcodescanner.git
+	branch = qtcwizard
