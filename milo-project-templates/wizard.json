@@ -29,6 +29,59 @@
             "typeId": "Project"
         },
         {
+            "trDisplayName": "Set up git repository",
+            "trShortTitle": "Git Repository",
+            "typeId": "Fields",
+            "data": [
+                {
+                    "name": "Repo",
+                    "trDisplayName": "Repository:",
+                    "type": "LineEdit",
+                    "mandatory": false,
+                    "enabled": "%{JS: '%{AddGitRepository}' === 'AddGitRepo'}",
+                    "data": {
+                        "trPlaceholder": "<Specify repository URL>"
+                    }
+                },
+                {
+                    "name": "InitialCommit",
+                    "trDisplayName": "Initial commit",
+                    "type": "CheckBox",
+                    "enabled": "%{JS: '%{AddGitRepository}' === 'AddGitRepo'}",
+                    "data": {
+                        "checkedValue": "InitCommit",
+                        "uncheckedValue": ""
+                    }
+                },
+                {
+                    "name": "CommitAllFiles",
+                    "trDisplayName": "Commit all files",
+                    "type": "CheckBox",
+                    "enabled": "%{JS: '%{InitialCommit}' === 'InitCommit' && '%{AddGitRepository}' === 'AddGitRepo'}",
+                    "data": {
+                        "checkedValue": "CommitAll",
+                        "uncheckedValue": ""
+                    }
+                },
+                {
+                    "name": "Sp1",
+                    "type": "Spacer",
+                    "data": {
+                        "factor": 50
+                    }
+                },
+                {
+                    "name": "AddGitRepository",
+                    "trDisplayName": "Add git repository",
+                    "type": "CheckBox",
+                    "data": {
+                        "checkedValue": "AddGitRepo",
+                        "uncheckedValue": ""
+                    }
+                }
+            ]
+        },
+        {
             "trDisplayName": "Kit Selection",
             "trShortTitle": "Kits",
             "typeId": "Kits",
