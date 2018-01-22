@@ -1,4 +1,4 @@
-@if "%{UseNewProjectTemplate}" == "NewProjectTemplate"
+@if "%{NewProjectTemplateChB}" == "NewProjectTemplateChBChecked"
 CONFIG += tests
 
 TEMPLATE = subdirs
@@ -14,28 +14,28 @@ tests {
     }
 }
 @else
-@if "%{IncludeMRestAPI}" == "MRestAPI"
+@if "%{MRestAPIChB}" == "MRestAPIChBChecked"
 include(milo/mrestapi/mrestapi.pri)
 @endif
-@if "%{IncludeMCharts}" == "MCharts"
+@if "%{MChartsChB}" == "MChartsChBChecked"
 include(milo/mcharts/mcharts.pri)
 @endif
-@if "%{IncludeMBarcodeScanner}" == "MBarcodeScanner"
+@if "%{MBarcodeScannerChB}" == "MBarcodeScannerChBChecked"
 include(milo/mbarcodescanner/mbarcodescanner.pri)
 @endif
-@if "%{IncludeMSentry}" == "MSentry"
+@if "%{MSentryChB}" == "MSentryChBChecked"
 include(milo/msentry/msentry.pri)
 @endif
-@if "%{IncludeMLog}" == "MLog"
+@if "%{MLogChB}" == "MLogChBChecked"
 include(milo/mlog/mlog.pri)
 @endif
-@if "%{IncludeMCrypto}" == "MCrypto"
+@if "%{MCryptoChB}" == "MCryptoChBChecked"
 include(milo/mcrypto/mcrypto.pri)
 @endif
-@if "%{IncludeMConfig}" == "MConfig"
+@if "%{MConfigChB}" == "MConfigChBChecked"
 include(milo/mconfig/mconfig.pri)
 @endif
-@if "%{IncludeMScripts}" == "MScripts"
+@if "%{MScriptsChB}" == "MScriptsChBChecked"
 include(milo/mscripts/mscripts.pri)
 @endif
 @endif
