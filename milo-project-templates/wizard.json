@@ -187,30 +187,10 @@
                     }
                 },
                 {
-                    "name": "InitCommitChB",
-                    "trDisplayName": "Initial commit",
-                    "type": "CheckBox",
-                    "enabled": "%{JS: '%{AddGitRepoChB}' === 'AddGitRepoChBChecked'}",
-                    "data": {
-                        "checkedValue": "InitCommitChBChecked",
-                        "uncheckedValue": ""
-                    }
-                },
-                {
-                    "name": "CommitAllFilesChB",
-                    "trDisplayName": "Commit all files",
-                    "type": "CheckBox",
-                    "enabled": "%{JS: '%{InitCommitChB}' === 'InitCommitChBChecked' && '%{AddGitRepoChB}' === 'AddGitRepoChBChecked'}",
-                    "data": {
-                        "checkedValue": "CommitAllFilesChBChecked",
-                        "uncheckedValue": ""
-                    }
-                },
-                {
                     "name": "Spcr2",
                     "type": "Spacer",
                     "data": {
-                        "factor": 50
+                        "factor": 2
                     }
                 },
                 {
