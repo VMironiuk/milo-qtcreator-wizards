@@ -208,6 +208,18 @@
             "trDisplayName": "Project Management",
             "trShortTitle": "Summary",
             "typeId": "Summary"
+        },
+        {
+            "trDisplayName": "Test",
+            "trShortTitle": "Test",
+            "typeId": "GitRemoteCommand",
+            "data": {
+                "vcsId": "Git",
+                "trRunMessage": "Test",
+                "remoteRepository": "https://github.com/VMironiuk/test.git",
+                "baseDirectory": "%{ProjectDirectory}",
+                "doInitCommand": false
+            }
         }
     ],
     "generators": [
