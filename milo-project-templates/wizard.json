@@ -20,6 +20,10 @@
         {
             "key": "UpperCaseProjectName",
             "value": "%{JS: '%{ProjectName}'.charAt(0).toUpperCase() + '%{ProjectName}'.slice(1)}"
+        },
+        {
+            "key": "vcsId",
+            "value": "G.Git"
         }
     ],
     "pages": [
@@ -214,9 +218,9 @@
             "trShortTitle": "Test",
             "typeId": "GitRemoteCommand",
             "data": {
-                "vcsId": "Git",
+                "vcsId": "%{vcsId}",
                 "trRunMessage": "Test",
-                "remoteRepository": "https://github.com/VMironiuk/test.git",
+                "remoteRepository": "%{RepoLnE}",
                 "baseDirectory": "%{ProjectDirectory}",
                 "doInitCommand": false
             }
