@@ -176,54 +176,9 @@
             ]
         },
         {
-            "trDisplayName": "Set up git repository",
-            "trShortTitle": "Git Repository",
-            "typeId": "Fields",
-            "data": [
-                {
-                    "name": "RepoLnE",
-                    "trDisplayName": "Repository:",
-                    "type": "LineEdit",
-                    "mandatory": false,
-                    "enabled": "%{JS: '%{AddGitRepoChB}' === 'AddGitRepoChBChecked'}",
-                    "data": {
-                        "trPlaceholder": "<Specify repository URL>"
-                    }
-                },
-                {
-                    "name": "Spcr2",
-                    "type": "Spacer",
-                    "data": {
-                        "factor": 2
-                    }
-                },
-                {
-                    "name": "AddGitRepoChB",
-                    "trDisplayName": "Add git repository",
-                    "type": "CheckBox",
-                    "data": {
-                        "checkedValue": "AddGitRepoChBChecked",
-                        "uncheckedValue": ""
-                    }
-                }
-            ]
-        },
-        {
             "trDisplayName": "Project Management",
             "trShortTitle": "Summary",
-            "typeId": "Summary"
-        },
-        {
-            "trDisplayName": "Test",
-            "trShortTitle": "Test",
-            "typeId": "GitRemoteCommand",
-            "data": {
-                "vcsId": "%{vcsId}",
-                "trRunMessage": "Test",
-                "remoteRepository": "%{RepoLnE}",
-                "baseDirectory": "%{ProjectDirectory}",
-                "doInitCommand": false
-            }
+            "typeId": "MySummary"
         }
     ],
     "generators": [
