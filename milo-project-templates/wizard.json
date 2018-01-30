@@ -178,7 +178,7 @@
         {
             "trDisplayName": "Project Management",
             "trShortTitle": "Summary",
-            "typeId": "MySummary"
+            "typeId": "MiloSummary"
         }
     ],
     "generators": [
