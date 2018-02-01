@@ -1243,12 +1243,12 @@
                     "condition": "%{JS: '%{MScriptsChB}' === 'MScriptsChBChecked'}"
                 },
                 {
-                    "source": "milo/mscripts/version/bumpVersion.bat",
+                    "source": "adapters/mscripts/version/bumpVersion.bat",
                     "target": "milo/mscripts/version/bumpVersion.bat",
                     "condition": "%{JS: '%{MScriptsChB}' === 'MScriptsChBChecked'}"
                 },
                 {
-                    "source": "milo/mscripts/version/bumpVersion.sh",
+                    "source": "adapters/mscripts/version/bumpVersion.sh",
                     "target": "milo/mscripts/version/bumpVersion.sh",
                     "condition": "%{JS: '%{MScriptsChB}' === 'MScriptsChBChecked'}"
                 },
@@ -1433,7 +1433,7 @@
                     "condition": "%{JS: '%{AndroidChB}' === 'AndroidChBChecked'}"
                 },
                 {
-                    "source": "milo/newprojecttemplate/template/platforms/mac/mac.pri",
+                    "source": "adapters/newprojecttemplate/template/platforms/mac/mac.pri",
                     "target": "%{ProjectName}/platforms/mac/mac.pri",
                     "condition": "%{JS: '%{MacChB}' === 'MacChBChecked'}"
                 },
@@ -1443,7 +1443,7 @@
                     "condition": "%{JS: '%{WindowsChB}' === 'WindowsChBChecked'}"
                 },
                 {
-                    "source": "milo/newprojecttemplate/template/template.pro",
+                    "source": "adapters/newprojecttemplate/template/template.pro",
                     "target": "%{ProjectName}/%{ProjectName}.pro",
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 },
@@ -1463,7 +1463,7 @@
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 },
                 {
-                    "source": "milo/newprojecttemplate/template/src/main.cpp",
+                    "source": "adapters/newprojecttemplate/template/src/main.cpp",
                     "target": "%{ProjectName}/src/main.cpp",
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 },
@@ -1498,17 +1498,17 @@
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 },
                 {
-                    "source": "milo/newprojecttemplate/tests/tests.pro",
+                    "source": "adapters/newprojecttemplate/tests/tests.pro",
                     "target": "tests/tests.pro",
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 },
                 {
-                    "source": "milo/newprojecttemplate/tests/tst_project/tst_template.cpp",
+                    "source": "adapters/newprojecttemplate/tests/tst_project/tst_template.cpp",
                     "target": "tests/tst_%{ProjectName}/tst_%{ProjectName}.cpp",
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 },
                 {
-                    "source": "milo/newprojecttemplate/tests/tst_project/tst_project.pro",
+                    "source": "adapters/newprojecttemplate/tests/tst_project/tst_project.pro",
                     "target": "tests/tst_%{ProjectName}/tst_%{ProjectName}.pro",
                     "condition": "%{JS: '%{NewProjectTemplateChB}' === 'NewProjectTemplateChBChecked'}"
                 }
